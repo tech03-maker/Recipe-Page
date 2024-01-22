@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  font-family: "Outfit", sans-serif, "Young Serif";
+}
+
+.omelette {
+  background-image: url(assets/images/image-omelette.jpeg);
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.head {
+  font-family: "Young Serif", "Outfit";
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 17px;
+}
+
+.pink {
+  background-color: rgba(255, 192, 203, 0.726);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.pink ul {
+  line-height: 2rem;
+}
+
+.preparation {
+  color: brown;
+  font-weight: bold;
+}
+
+li {
+  padding-left: 2rem;
+}
+
+.ingredents {
+  color: brown;
+  font-size: 2rem;
+  font-family: "Young Serif", "Outfit";
+  font-weight: bold;
+}
+
+.ing-ul {
+  line-height: 2.3rem;
+}
+.ing-ul li {
+  font-size: 17px;
+}
+
+.instructions {
+  color: brown;
+  font-size: 2rem;
+  font-family: "Young Serif", "Outfit";
+  font-weight: bold;
+}
+
+.instruction-ul {
+  list-style: none;
+  line-height: 2.1rem;
+}
+
+.instruction-ul li {
+  font-size: 17px;
+}
+
+.number {
+  color: brown;
+}
+
+.last-section p {
+  font-size: 17px;
+}
+
+.row p {
+  color: brown;
+}
+
+@media screen and (max-width: 576px) {
+  .omelette {
+    height: 30vh;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768) {
+  .omelette {
+    height: 30vh;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1200) {
+  .omelette {
+    height: 30vh;
+  }
+
+  .head {
+    font-size: 2rem;
+  }
+}
